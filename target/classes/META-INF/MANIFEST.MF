@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/dictionaryclient.xml
+Export-Package: it.datiaperti.osgi.scr.xml.dictionary.client;uses:="it
+ .datiaperti.osgi.scr.xml.dictionary.service.api,org.osgi.service.comp
+ onent"
+Built-By: luigi
+Bundle-Category: sample
+Tool: Bnd-0.0.357
+Bundle-Name: Dictionary Service Client
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.7.0_09
+Bundle-Version: 0.0.2.SNAPSHOT
+Bnd-LastModified: 1361015858075
+Bundle-ManifestVersion: 2
+Bundle-Description: A client that uses a dictionary service to check w
+ ords.
+Import-Package: it.datiaperti.osgi.scr.xml.dictionary.client,it.datiap
+ erti.osgi.scr.xml.dictionary.service.api,org.osgi.service.component;v
+ ersion="1.1"
+Bundle-SymbolicName: it.datiaperti.osgi.scr.xml.dictionary.client
+

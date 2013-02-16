@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="it.datiaperti.osgi.scr.xml.dictionary.client.DictionaryClient" immediate="true">
+  <implementation class="it.datiaperti.osgi.scr.xml.dictionary.client.DictionaryClient" />
+  <property name="component.name" value="Dictionary Service Client"/>
+  <property name="component.description" value="Dictionary Service Client. It uses a reference of a Dictionary Service to check words. This component doesn't provide any service." />
+  <property name="component.vendor" value="Dati Aperti" />
+  <reference name="dictionary.service"
+        interface="it.datiaperti.osgi.scr.xml.dictionary.service.api.DictionaryService"
+        cardinality="1..1" 
+        policy="static"
+        bind="bindDictionaryService"
+        unbind="unbindDictionaryService"
+    />
+</component>
