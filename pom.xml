@@ -19,8 +19,8 @@
                  <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                    	<Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-                    	<Bundle-Category>sample</Bundle-Category>
+                     <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+                     <Bundle-Category>sample</Bundle-Category>
                         <Service-Component>OSGI-INF/dictionaryclient.xml</Service-Component>
                         <Export-Package>
                             it.datiaperti.osgi.scr.xml.dictionary.client
@@ -32,35 +32,30 @@
             </plugin>
             
             <plugin>
-		        <artifactId>maven-compiler-plugin</artifactId>
-		        <inherited>true</inherited>
-		        <configuration>
-		          <source>1.5</source>
-		          <target>1.5</target>
-		        </configuration>
-      		</plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<inherited>true</inherited>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+       		</plugin>
         </plugins>
     </build>
   
 	<dependencies>
-		
-		<dependency>
-			<groupId>it.datiaperti.osgi</groupId>
-  			<artifactId>it.datiaperti.osgi.scr</artifactId>
-  			<version>0.0.1</version>
-		</dependency>
-		
+
 		<dependency>
 			<groupId>it.datiaperti.osgi.scr.xml</groupId>
 			<artifactId>it.datiaperti.osgi.scr.xml.dictionary.service</artifactId>
-  			<version>0.0.2-SNAPSHOT</version>
+		   <version>0.0.2-SNAPSHOT</version>
 		</dependency>
-		
+
+
 		<dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.core</artifactId>
             <scope>provided</scope>
-      		<version>4.2.0</version>
+       		<version>4.2.0</version>
         </dependency>
         
         <dependency>
@@ -69,15 +64,15 @@
             <version>4.2.0</version>
             <scope>provided</scope>
         </dependency>
-		
+
      </dependencies>
      
      <distributionManagement>
-	    <!-- releases repo -->
-	    <repository>
-	      <id>repo-rel</id>
-	      <url>file:/home/luigi/books/programming/Java/OSGi/OSGi_Felix_Code_Examples/releases</url>
-	    </repository>
-  	</distributionManagement>
-	
+<!-- releases repo -->
+<repository>
+<id>repo-rel</id>
+<url>file:/home/luigi/books/programming/Java/OSGi/OSGi_Felix_Code_Examples/releases</url>
+</repository>
+   </distributionManagement>
+
 </project>
