@@ -11,4 +11,5 @@
         bind="bindDictionaryService"
         unbind="unbindDictionaryService"
     />
+    
 </component>
