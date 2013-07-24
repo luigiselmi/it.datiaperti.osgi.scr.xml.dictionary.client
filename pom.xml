@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>it.datiaperti.osgi.scr.xml</groupId>
-  <artifactId>it.datiaperti.osgi.scr.xml.dictionary.client</artifactId>
+  <artifactId>dictionary.client</artifactId>
   <version>0.0.2-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Dictionary Service Client</name>
