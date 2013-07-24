@@ -1,4 +1,4 @@
-it.datiaperti.osgi.scr.xml.dictionary.client
+OSGi SCR Dictionary Client
 ============================================
 
 This is an example implemetation of a OSGi bundle that provides a client for the service available in the project
