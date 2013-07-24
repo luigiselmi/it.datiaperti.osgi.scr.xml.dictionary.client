@@ -3,11 +3,11 @@ OSGi SCR Dictionary Client
 
 This is an example implemetation of a OSGi bundle that provides a client for the service available in the project
 
-it.datiaperti.osgi.scr.xml.dictionary.service
+[OSGi SCR Dictionary Service](https://github.com/luigiselmi/it.datiaperti.osgi.scr.xml.dictionary.service)
 
 To try it you have to clone the project, compile with
 
-mvn install
+    mvn install
 
 then install the bundle jar file into a OSGi container like Apache Felix. This client acts as an interface between 
 the user and the service. The user sends the guess word to the client writing on the Felix shell to which the client 
