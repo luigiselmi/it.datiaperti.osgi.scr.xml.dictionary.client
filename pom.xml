@@ -46,8 +46,8 @@
 
 		<dependency>
 			<groupId>it.datiaperti.osgi.scr.xml</groupId>
-			<artifactId>it.datiaperti.osgi.scr.xml.dictionary.service</artifactId>
-		   <version>0.0.2-SNAPSHOT</version>
+			<artifactId>dictionary.service</artifactId>
+		   <version>0.0.3-SNAPSHOT</version>
 		</dependency>
 
 
